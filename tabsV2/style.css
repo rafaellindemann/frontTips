@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    background-color: #000;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #00ff00;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}

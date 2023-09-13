@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toggleable Tabs</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="tab-buttons">
+    <button class="tab-button active-tab-button" onclick="toggleTab(0)">Tab 1</button>
+    <button class="tab-button" onclick="toggleTab(1)">Tab 2</button>
+    <button class="tab-button" onclick="toggleTab(2)">Tab 3</button>
+</div>
+<div class="tab" id="tab1">
+    <h2>Tab 1 Content</h2>
+    <p>Description for Tab 1 goes here.</p>
+</div>
+<div class="tab" id="tab2">
+    <h2>Tab 2 Content</h2>
+    <p>Description for Tab 2 goes here.</p>
+</div>
+<div class="tab" id="tab3">
+    <h2>Tab 3 Content</h2>
+    <p>Description for Tab 3 goes here.</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

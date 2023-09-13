@@ -1,0 +1,41 @@
+html{
+  width: 100%;
+  height: 100%;
+
+}
+body{
+    background: #eee;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tab-buttons {
+    display: flex;
+  }
+  
+  .tab-button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .tab-button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab {
+    display: none;
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+    background-color: #ccc;
+  }
+  
+  .active-tab-button {
+    background-color: #ccc;
+    transform: scaleY(1.1);
+    transform-origin: bottom;
+  }

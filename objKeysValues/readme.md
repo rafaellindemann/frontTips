@@ -1,0 +1,1 @@
+Pequena little tip mostrando como generalizar o acesso aos valores das propriedades de um objeto
